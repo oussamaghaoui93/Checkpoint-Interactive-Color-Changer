@@ -1,0 +1,45 @@
+/* Center the container and add top margin for spacing */
+.container {
+    text-align: center;
+    /* Centers the text inside the container */
+    margin-top: 50px;
+    /* Adds space above the container */
+}
+
+/* Style for the color box */
+#color-box {
+    width: 450px;
+    /* Sets the width of the color box */
+    height: 300px;
+    /* Sets the height of the color box */
+    background-color: #3498db;
+    /* Default background color of the box */
+    margin: 0 auto 20px;
+    /* Centers the box horizontally and adds bottom margin */
+    border-radius: 10px;
+    /* Rounds the corners of the box */
+}
+
+/* Style for the color change button */
+#change-color-btn {
+    padding: 10px 20px;
+    /* Adds padding inside the button for better spacing */
+    font-size: 16px;
+    /* Sets the font size of the button text */
+    color: white;
+    /* Sets the text color of the button */
+    background-color: #2ecc71;
+    /* Default background color of the button */
+    border: none;
+    /* Removes the default border of the button */
+    border-radius: 5px;
+    /* Rounds the corners of the button */
+    cursor: pointer;
+    /* Changes the cursor to a pointer to indicate clickability */
+}
+
+/* Style for the button on hover */
+#change-color-btn:hover {
+    background-color: #27ae60;
+    /* Changes the background color of the button when hovered */
+}
